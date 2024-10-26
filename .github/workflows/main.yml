@@ -1,10 +1,11 @@
-name: tests
+name: Auto-Merge PRs after Successful Tests
 
 on:
-  push:
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  run_tests:
+  test_and_merge:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,3 +29,18 @@ jobs:
 
     - name: Run tests with Maven
       run: mvn -B test --file kaiyuan/pom.xml
+
+    - name: Merge Pull Request if tests pass
+      if: success()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Check if there are any pending reviews
+        pending_reviews=$(curl -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -sL "${GITHUB_API_URL}/pulls/${GITHUB_REF#refs/pull/*/merge}/reviews" | jq '.[] | select(.state == "PENDING")')
+        
+        # If there are no pending reviews, merge the PR
+        if [[ -z "$pending_reviews" ]]; then
+          curl -X POST -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"merge_method":"squash"}' "${GITHUB_API_URL}/pulls/${GITHUB_REF#refs/pull/*/merge}/merge"
+        else
+          echo "There are still pending reviews, cannot merge the PR."
+        fi

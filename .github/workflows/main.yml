@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  check_tests:  
+  run_tests:  # 修正：确保作业名称后跟冒号和换行
     runs-on: ubuntu-latest
 
     steps:

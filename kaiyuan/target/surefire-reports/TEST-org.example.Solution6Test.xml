@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.Solution6Test" time="0.111" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\lenovo\Desktop\开源软件实践\SparkCase\kaiyuan\target\test-classes;C:\Users\lenovo\Desktop\开源软件实践\SparkCase\kaiyuan\target\classes;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\WebSoftware\jdk_11\bin"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire5141535337054739763\surefirebooter-20241026112257796_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire5141535337054739763 2024-10-26T11-22-57_322-jvmRun1 surefire-20241026112257796_1tmp surefire_0-20241026112257796_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\lenovo\Desktop\开源软件实践\SparkCase\kaiyuan\target\test-classes;C:\Users\lenovo\Desktop\开源软件实践\SparkCase\kaiyuan\target\classes;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="D:\WebSoftware\jdk_11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\lenovo\Desktop\开源软件实践\SparkCase\kaiyuan"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire5141535337054739763\surefirebooter-20241026112257796_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\mvn_repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.1"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="user.dir" value="C:\Users\lenovo\Desktop\开源软件实践\SparkCase\kaiyuan"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\WebSoftware\jdk_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\vmware workstation pro\bin\;D:\WebSoftware\jdk-17\bin;D:\WebSoftware\ZenTao\bin\php;D:\WebSoftware\ZenTao\bin\sliksvn;C:\Program Files\Common Files\Oracle\Java\javapath;D:\WebSoftware\ZenTao\zbox\nssm\win32;D:\py\Python3\Scripts\;D:\py\Python3\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\LenovoSoftstore\Bandizip\;D:\matlab\install\runtime\win64;D:\matlab\install\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global;C:\Program Files\TortoiseGit\bin;D:\mysql-8.0.31-winx64\bin;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;d:\py\Pycharm\bin;D:\IntelliJ IDEA 2023.1\bin;D:\BaiduNetdiskDownload\Creo10.0.0.0\PTC\LIC;C:\Windows\System32\Wbem;D:\WebSoftware\apache-tomcat-10.1;D:\WebSoftware\jdk-17\bin;D:\WebSoftware\apache-tomcat-9.0.89\lib;D:\WebSoftware\apache-tomcat-9.0.89\bin;D:\WebSoftware\apache-tomcat-9.0.89\lib\servlet-api.jar;D:\program\mingw64\bin;C:\Windows\System32\Wbem;D:\WebSoftware\scala-2.11.8\bin;D:\anaconda3;D:\anaconda3\Scripts;D:\anaconda3\Library\bin;D:\anaconda3\Library\mingw-w64\bin;D:\Git\cmd;D:\mingw64\bin;D:\mingw64\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\program\MinGW\bin;d:\py\Pycharm\bin;;D:\IntelliJ IDEA 2023.1\bin;;D:\WebSoftware\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Windows\System32\Wbem;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testPeopleIndexes_EdgeCases" classname="org.example.Solution6Test" time="0.061"/>
+</testsuite>
